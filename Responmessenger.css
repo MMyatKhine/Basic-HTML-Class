@@ -1,0 +1,191 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cover{
+    max-width: 1024px;
+    margin:0 auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: #fafafa;
+    opacity: 0.9;
+}
+
+.logoContainer{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    width: 100%;
+}
+
+.meunItems{
+    text-decoration: none;
+    color:inherit;
+    margin-left: 40px;
+}
+
+.meunItems:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #385898;
+    
+}
+
+.mobilecontainer{
+    display: none;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    display: inline-block;
+    width:50%;  
+}
+
+.leftinner{
+    width: 80%;
+}
+
+.h5{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.discription{
+    margin-bottom: 30px;
+}
+
+.blockelement{
+    display: block;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    height: 30px;
+    width:250px;
+    outline:none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.margitset{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.login{
+    border:none;
+    border-radius: 24px;
+    background-color: #0084ff;
+    height: 40px;
+    color:white;
+    font-size: 16px;
+    padding:2px 20px 0;
+}
+
+.inputspan{
+    margin-bottom: 20px;
+}
+
+.right{
+    display: inline-block;
+    width:50%;
+}
+
+.rightimage{
+    width:100%;
+}
+
+.fyourpass{
+    display: inline;
+    text-decoration: underline;
+    color: #0084ff;
+    margin-left: 15px;
+}
+
+.appstoreimage{
+    width:35%;
+}
+
+.microimage{
+    width:35%;
+}
+
+.footer{
+    padding:20px;
+    margin-top: 70px;
+    background-image:linear-gradient(to right, #3a38be ,purple, rgb(202, 80, 121) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext{
+    font-size: 20px;
+    color: inherit;
+}
+
+
+.footerimage{
+   font-size: 40px;
+   color: white;
+   margin: 0 10px;
+}
+@media (max-width:1060px){
+    .cover{
+        margin: 0 20px;
+    }
+}
+@media (max-width:767px){
+    .meunItems{
+        display: none;
+    }
+
+    .mobilecontainer{
+        display: block;
+    }
+
+    .left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .leftinner{
+        margin: 0 auto;
+    }
+
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+    .rightimage{
+        margin: 0 -20%;
+    }
+}
+
+@media (max-width:320px) {
+    .leftinner{
+        width: 97%;
+    }
+    
+    .footer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
