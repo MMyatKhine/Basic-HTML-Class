@@ -42,7 +42,7 @@ html,body{
     
 }
 
-.mobilecontainer{
+.mobileContainer{
     display: none;
     
 }
@@ -70,7 +70,7 @@ html,body{
     margin-bottom: 30px;
 }
 
-.blockelement{
+.blockElement{
     display: block;
     margin-bottom: 10px;
     border:none;
@@ -108,7 +108,7 @@ html,body{
     width:50%;
 }
 
-.rightimage{
+.rightImage{
     width:100%;
 }
 
@@ -119,11 +119,11 @@ html,body{
     margin-left: 15px;
 }
 
-.appstoreimage{
+.appstoreImage{
     width:35%;
 }
 
-.microimage{
+.microImage{
     width:35%;
 }
 
@@ -136,13 +136,13 @@ html,body{
     align-items: center;
 }
 
-.footertext{
+.footerText{
     font-size: 20px;
     color: inherit;
 }
 
 
-.footerimage{
+.footerImage{
    font-size: 40px;
    color: white;
    margin: 0 10px;
@@ -157,7 +157,7 @@ html,body{
         display: none;
     }
 
-    .mobilecontainer{
+    .mobileContainer{
         display: block;
     }
 
